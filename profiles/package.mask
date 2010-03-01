@@ -1,0 +1,2 @@
+# Node.js live ebuild. Use at your own risk.
+=dev-lang/nodejs-9999
