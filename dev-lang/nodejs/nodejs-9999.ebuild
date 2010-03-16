@@ -17,12 +17,10 @@ DEPEND="net-libs/gnutls"
 RDEPEND="${DEPEND}"
 
 src_compile() {
-    #cd "${WORKDIR}/node-v${PV}"
-    ./configure --prefix=/usr || die "configure failed"
-    emake || die "emake failed"
+	./configure --prefix=/usr || die "configure failed"
+	emake || die "emake failed"
 }
 
 src_install() {
-    #cd "${WORKDIR}/node-v${PV}"
-    ./tools/waf-light install --destdir="${D}" || die "install failed"
+	./tools/waf-light install --destdir="${D}" || die "install failed"
 }
