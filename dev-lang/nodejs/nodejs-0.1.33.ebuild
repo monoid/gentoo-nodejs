@@ -11,8 +11,9 @@ SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
 
-DEPEND="net-libs/gnutls"
-RDEPEND="${DEPEND}"
+RDEPEND="net-libs/gnutls"
+DEPEND="${RDEPEND}
+	>=sys-devel/gcc-4"
 
 S="${WORKDIR}/node-v${PV}"
 
