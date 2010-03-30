@@ -23,4 +23,7 @@ src_compile() {
 
 src_install() {
 	./tools/waf-light install --destdir="${D}" || die "install failed"
+
+	keepdir /usr/lib/node/libraries
+	newenvd "${FILESDIR}/90nodejs-envd" "90nodejs"
 }
