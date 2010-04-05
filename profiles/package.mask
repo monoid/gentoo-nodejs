@@ -1,2 +1,5 @@
 # Node.js live ebuild. Use at your own risk.
 =dev-lang/nodejs-9999
+
+# haml-js live ebuild. Use at your own risk.
+=dev-node/haml-js-9999
