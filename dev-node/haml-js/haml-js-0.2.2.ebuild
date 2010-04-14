@@ -4,7 +4,7 @@
 
 DESCRIPTION="Server side templating language for JavaScript"
 HOMEPAGE="http://github.com/creationix/haml-js"
-SRC_URI="http://github.com/creationix/haml-js/tarball/v0.2.2 -> haml-js-0.2.2.tar.gz"
+SRC_URI="http://github.com/creationix/${PN}/tarball/v${PV} -> ${PN}-${PV}.tar.gz"
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
