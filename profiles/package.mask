@@ -3,3 +3,6 @@
 
 # haml-js live ebuild. Use at your own risk.
 =dev-node/haml-js-9999
+
+# proto live ebuild. Use at your own risk.
+=dev-node/proto-9999
