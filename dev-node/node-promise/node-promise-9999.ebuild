@@ -17,6 +17,6 @@ RDEPEND="${DEPEND}"
 
 src_install() {
 	insinto /usr/lib/node/libraries
-	doins lib/promise.js fs-promise.js || die
+	doins promise.js fs-promise.js || die
 	dodoc README.md test-promise.js || die
 }
