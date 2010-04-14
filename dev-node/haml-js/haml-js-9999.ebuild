@@ -10,8 +10,9 @@ EGIT_REPO_URI="git://github.com/creationix/haml-js.git"
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
+LICENSE="MIT"
 
-DEPEND=""
+DEPEND="dev-lang/nodejs"
 RDEPEND="${DEPEND}"
 
 src_install() {

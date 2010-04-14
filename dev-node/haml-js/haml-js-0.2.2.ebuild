@@ -9,10 +9,11 @@ SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
 S="${WORKDIR}/creationix-haml-js-8ea2df3"
+LICENSE="MIT"
 
 EAPI=2
 
-DEPEND=""
+DEPEND="dev-lang/nodejs"
 RDEPEND="${DEPEND}"
 
 src_install() {
