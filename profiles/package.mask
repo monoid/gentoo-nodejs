@@ -6,3 +6,6 @@
 
 # proto live ebuild. Use at your own risk.
 =dev-node/proto-9999
+
+# haml-js-visionmedia live ebuild.  Use at your own risk.
+=dev-node/haml-js-visionmedia-9999
