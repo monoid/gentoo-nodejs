@@ -6,7 +6,7 @@ EAPI=2
 
 DESCRIPTION="Evented I/O framework for V8 javascript."
 HOMEPAGE="http://nodejs.org/"
-SRC_URI="http://github.com/ry/node/tarball/v${PV} -> ${PN}-${PV}.tar.gz"
+SRC_URI="http://nodejs.org/dist/node-v${PV}.tar.gz"
 
 LICENSE="MIT LGPL"
 SLOT="0"
@@ -18,7 +18,7 @@ RDEPEND="net-libs/gnutls
 DEPEND="${RDEPEND}
 	>=sys-devel/gcc-4"
 
-S="${WORKDIR}/ry-node-v${PV}-0-gcaa828a"
+S="${WORKDIR}/node-v${PV}"
 
 src_configure() {
 	./configure --prefix=/usr || die "configure failed"
