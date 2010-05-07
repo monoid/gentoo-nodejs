@@ -13,8 +13,9 @@ SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
 
-DEPEND="net-libs/gnutls"
-RDEPEND="${DEPEND}"
+RDEPEND="crypt? ( dev-libs/openssl )
+	>=sys-devel/gcc-4"
+DEPEND="${RDEPEND}"
 
 src_compile() {
 	./configure --prefix=/usr || die "configure failed"

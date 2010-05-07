@@ -13,10 +13,9 @@ SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE="crypt"
 
-RDEPEND="net-libs/gnutls
-	crypt? ( dev-libs/openssl )"
-DEPEND="${RDEPEND}
+RDEPEND="crypt? ( dev-libs/openssl )
 	>=sys-devel/gcc-4"
+DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/node-v${PV}"
 
