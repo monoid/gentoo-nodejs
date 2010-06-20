@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layman>
+  <overlay contact="liucougar@gmail.com" name="nodejs" src="git://github.com/liucougar/gentoo-nodejs.git" status="unofficial" type="git">
+    <description>node.js-related ebulds.</description>
+    <link>http://github.com/liucougar/gentoo-nodejs</link>
+  </overlay>
+</layman>
