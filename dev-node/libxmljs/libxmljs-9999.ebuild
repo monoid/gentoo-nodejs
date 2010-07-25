@@ -6,7 +6,7 @@ inherit git
 
 DESCRIPTION="libxml bindings for v8 javascript engine"
 HOMEPAGE="http://libxmljs.squishtech.com/"
-EGIT_REPO_URI="git://github.com/sprsquish/libxmljs.git"
+EGIT_REPO_URI="git://github.com/polotek/libxmljs.git"
 
 LICENSE="MIT"
 SLOT="0"
