@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="Library that adds some useful stuff to Object.prototype"
+DESCRIPTION="MySQL bindings for node.js"
 HOMEPAGE="http://github.com/Sannis/node-mysql-libmysqlclient/"
 SRC_URI="http://github.com/Sannis/node-mysql-libmysqlclient/tarball/v${PV} -> ${PN}-${PV}.tar.gz"
 SLOT="0"
