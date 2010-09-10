@@ -13,7 +13,7 @@ LICENSE="MIT"
 
 EAPI=2
 
-DEPEND="dev-lang/nodejs"
+DEPEND="dev-lang/nodejs virtual/mysql"
 RDEPEND="${DEPEND}"
 
 src_compile () {
@@ -25,5 +25,5 @@ src_install() {
 	insinto /usr/lib/node/libraries
 	doins mysql_bindings.node || die
 	doins mysql-libmysqlclient.js || die
-	dodoc README TODO LICENSE CHANGELOG || die
+	dodoc README LICENSE CHANGELOG || die
 }
