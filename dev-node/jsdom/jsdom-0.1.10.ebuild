@@ -8,7 +8,7 @@ SRC_URI="http://github.com/tmpvar/${PN}/tarball/${PV} -> ${PN}-${PV}.tar.gz"
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE="examples"
-S="${WORKDIR}/tmpvar-jsdom-8e70ff1"
+S="${WORKDIR}/tmpvar-jsdom-49e0e37"
 LICENSE="MIT"
 
 EAPI=2
