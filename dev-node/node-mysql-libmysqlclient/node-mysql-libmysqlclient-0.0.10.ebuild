@@ -7,7 +7,7 @@ HOMEPAGE="http://github.com/Sannis/node-mysql-libmysqlclient/"
 SRC_URI="http://github.com/Sannis/node-mysql-libmysqlclient/tarball/v${PV} -> ${PN}-${PV}.tar.gz"
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
-IUSE=""
+IUSE="doc"
 S="${WORKDIR}/Sannis-node-mysql-libmysqlclient-d6e6d37"
 LICENSE="MIT"
 
@@ -26,4 +26,7 @@ src_install() {
 	doins mysql_bindings.node || die
 	doins mysql-libmysqlclient.js || die
 	dodoc README.markdown LICENSE CHANGELOG || die
+	if use doc; then
+		dohtml docs/* || die
+	fi
 }
