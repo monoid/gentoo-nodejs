@@ -8,7 +8,7 @@ SRC_URI="http://github.com/Sannis/node-mysql-libmysqlclient/tarball/v${PV} -> ${
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
-S="${WORKDIR}/Sannis-node-mysql-libmysqlclient-4cc3ae3"
+S="${WORKDIR}/Sannis-node-mysql-libmysqlclient-d6e6d37"
 LICENSE="MIT"
 
 EAPI=2
@@ -25,5 +25,5 @@ src_install() {
 	insinto /usr/lib/node/libraries
 	doins mysql_bindings.node || die
 	doins mysql-libmysqlclient.js || die
-	dodoc README LICENSE CHANGELOG || die
+	dodoc README.markdown LICENSE CHANGELOG || die
 }
