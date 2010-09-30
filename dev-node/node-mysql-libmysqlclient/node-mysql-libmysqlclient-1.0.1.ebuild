@@ -8,7 +8,7 @@ SRC_URI="http://github.com/Sannis/node-mysql-libmysqlclient/tarball/v${PV} -> ${
 SLOT="0"
 KEYWORDS="-* ~x86 ~amd64"
 IUSE=""
-S="${WORKDIR}/Sannis-node-mysql-libmysqlclient-13e0ed3"
+S="${WORKDIR}/Sannis-node-mysql-libmysqlclient-cf00f03"
 LICENSE="MIT"
 
 EAPI=2
