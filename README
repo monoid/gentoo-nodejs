@@ -1,5 +1,1 @@
-You can add this overlay through layman by:
-
-layman -f -o http://github.com/downloads/monoid/gentoo-nodejs/nodejs-layman.xml -a nodejs
-
-Forked from http://github.com/monoid/gentoo-nodejs
+This overlay is not maintained anymore.
